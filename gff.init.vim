@@ -18,7 +18,8 @@ Plug 'mkitt/tabline.vim'
 Plug 'ryanoasis/vim-devicons'
 "Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 "Color:
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'dracula/vim',{'name': 'dracula'}
 "Plug 'fatih/molokai'
 "Autocomplete:
 Plug 'ncm2/ncm2'
@@ -100,7 +101,7 @@ vnoremap > >gv
 
 "COLOR:
 "------
-colorscheme gruvbox
+colorscheme dracula "gruvbox
 set background=dark
 
 "FILE SEARCH:
