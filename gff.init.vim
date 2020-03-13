@@ -44,6 +44,8 @@ Plug 'vim-syntastic/syntastic'
 "Plug 'fatih/vim-go'
 "Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 "Plug 'ncm2/ncm2-go'
+" vue
+Plug 'leafoftree/vim-vue-plugin'
 call plug#end()
 
 "COPY/PASTE:
@@ -219,6 +221,7 @@ if has("autocmd")
     autocmd BufRead,BufNewFile *.view set filetype=php
     autocmd BufRead,BufNewFile *.theme set filetype=php
     autocmd BufRead,BufNewFile *.lock set filetype=json
+    autocmd BufRead,BufNewFile *.vue set filetype=vue
   augroup END
 endif
 syntax on
