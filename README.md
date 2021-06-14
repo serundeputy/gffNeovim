@@ -34,4 +34,15 @@ mkdir -p ~/.config/nvim
 ln -s ~/gffNeovim/gff.init.vim ~/.config/nvim/init.vim
 ```
 
+## Nerd Fonts
+
+I like to install [nerd-font](https://github.com/ryanoasis/nerd-fonts#font-installation) for some eye candy.
+
+```bash
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
+then set your terminal to use the new font.
+
 Enjoy using neovim!
